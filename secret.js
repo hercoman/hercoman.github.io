@@ -25,6 +25,6 @@ document.querySelector(".puzzle-second-button-text").ondblclick = function () {
     }
     document.querySelector(".puzzle-solution").hidden = false;
   } else {
-    document.getElementById("message-useful").innerText = "Don't remove the first part of the secret. You need it to unlock the secret."
+    document.getElementById("message-useful").innerText = "Don't remove or edit the first part of the secret. You need it to unlock the secret."
   }
 };
